@@ -4,8 +4,11 @@ Objective: Develop API endpoints to fetch data from a public API with filtering
 options.
 
 ● Requirements:
+
 ○ Utilize Node.js and Express.js to create API routes.
+
 ○ Fetch data from the provided public API
+
 ○ Implement filtering options for data retrieval based on categories and
 result limits.
 
