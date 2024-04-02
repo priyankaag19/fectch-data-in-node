@@ -9,7 +9,7 @@ options.
 ○ Implement filtering options for data retrieval based on categories and
 result limits.
 
-# get data
+# Get data
 
 GET http://localhost:5000/api/data
 
@@ -19,10 +19,10 @@ GET http://localhost:5000/api/data?category=Animals
 
 # To limit the number of results:
 
-GET /api/data?limit=10
+GET http://localhost:5000/api/data?limit=10
 
 Replace "10" with the desired limit.
 
 # Combining filtering options:
 
-GET /api/data?category=Animals&limit=10
+GET http://localhost:5000/api/data?category=Animals&limit=10
